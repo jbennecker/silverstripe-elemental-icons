@@ -1,0 +1,17 @@
+{
+    "name": "jbennecker/silverstripe-elemental-icons",
+    "description": "Provides additional cms icons for custom dnadesign/silverstripe-elemental elements ",
+    "license": "MIT",
+    "type": "silverstripe-vendormodule",
+    "require": {
+        "php": ">=7.0.0",
+        "silverstripe/framework": "^4",
+        "silverstripe/cms": "^4",
+        "dnadesign/silverstripe-elemental": "^4"
+    },
+    "extra": {
+        "expose": [
+            "src/icons"
+        ]
+    }
+}

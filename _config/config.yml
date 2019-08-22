@@ -1,0 +1,8 @@
+---
+Name: elemental_icons
+After: 'elemental'
+---
+
+SilverStripe\Admin\LeftAndMain:
+  extra_requirements_css:
+    - vendor/jbennecker/silverstripe-elemental-icons/src/icons/icons.css

@@ -1,0 +1,13 @@
+$icons: code, embed, gallery, sectionnav, slideshow;
+
+@each $icon in $icons {
+    .popover-option-set button.elemental-icon__#{$icon}::before,
+    i.elemental-icon__#{$icon} {
+        display: inline-block;
+        width: 28px;
+        height: 28px;
+        background: url('#{$icon}.svg');
+        content: "";
+        vertical-align: middle;
+    }
+}
