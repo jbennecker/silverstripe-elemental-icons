@@ -7,32 +7,22 @@ Provides additional cms icons for custom dnadesign/silverstripe-elemental elemen
 * [SilverStripe](https://www.silverstripe.org/)
 * [SilverStripe Elemental](https://github.com/dnadesign/silverstripe-elemental)
 
-
-## Usage
-
-1. Install via composer
+## Installation
 
     $ composer require jbennecker/silverstripe-elemental-icons
     
-2. Run dev/build?flush
+Run dev/build?flush
 
-3. Add Icons to your elements
+## Usage
 
-Add `private static $icon = 'elemental-icon__{{icon_name}}';` to your Element.
+Add `private static $icon = 'elemental-icon__{{icon_name}}';` to your Element. For example if you'd like to use the code icon use `private static $icon = 'elemental-icon__code';`
 
 ## Available Icons
 
-code
-![code](src/icons/code.svg)
-
-embed
-![embed](src/icons/embed.svg)
-
-gallery
-![](src/icons/gallery.svg)
-
-sectionnav
-![](src/icons/sectionnav.svg)
-
-slideshow
-![](src/icons/slideshow.svg)
+| Icon | Name |
+| ---- | ---- |
+| <img src="https://www.github.com/jbennecker/silverstripe-elemental-icons/raw/master/src/icons/code.svg?sanitize=true" alt="code" width="32" height="32"> | code |
+| <img src="https://www.github.com/jbennecker/silverstripe-elemental-icons/raw/master/src/icons/embed.svg?sanitize=true" alt="embed" width="32" height="32"> | embed |
+| <img src="https://www.github.com/jbennecker/silverstripe-elemental-icons/raw/master/src/icons/gallery.svg?sanitize=true" alt="gallery" width="32" height="32"> | gallery |
+| <img src="https://www.github.com/jbennecker/silverstripe-elemental-icons/raw/master/src/icons/sectionnav.svg?sanitize=true" alt="sectionnav" width="32" height="32"> | sectionnav |
+| <img src="https://www.github.com/jbennecker/silverstripe-elemental-icons/raw/master/src/icons/slideshow.svg?sanitize=true" alt="slideshow" width="32" height="32"> | slideshow |
