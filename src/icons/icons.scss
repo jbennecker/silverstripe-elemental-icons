@@ -1,4 +1,4 @@
-$icons: code, embed, gallery, sectionnav, slideshow;
+$icons: code, embed, gallery, sectionnav, slideshow, text-img;
 
 @each $icon in $icons {
     .popover-option-set button.elemental-icon__#{$icon}::before,

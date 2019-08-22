@@ -26,3 +26,4 @@ Add `private static $icon = 'elemental-icon__{{icon_name}}';` to your Element. F
 | <img src="https://www.github.com/jbennecker/silverstripe-elemental-icons/raw/master/src/icons/gallery.svg?sanitize=true" alt="gallery" width="32" height="32"> | gallery |
 | <img src="https://www.github.com/jbennecker/silverstripe-elemental-icons/raw/master/src/icons/sectionnav.svg?sanitize=true" alt="sectionnav" width="32" height="32"> | sectionnav |
 | <img src="https://www.github.com/jbennecker/silverstripe-elemental-icons/raw/master/src/icons/slideshow.svg?sanitize=true" alt="slideshow" width="32" height="32"> | slideshow |
+| <img src="https://www.github.com/jbennecker/silverstripe-elemental-icons/raw/master/src/icons/text-img.svg?sanitize=true" alt="text-img" width="32" height="32"> | text-img |
